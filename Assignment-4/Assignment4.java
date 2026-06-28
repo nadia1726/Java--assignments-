@@ -1,8 +1,8 @@
-package assignment5;
+package assignment4;
 
 import java.util.Scanner;
 
-public class Assignment5 {
+public class Assignment4 {
 
     public static void main(String[] args) {
         System.out.println("Enter your age:");
