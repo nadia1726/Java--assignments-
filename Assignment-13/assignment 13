@@ -1,0 +1,27 @@
+package assignment.pkg13;
+
+import java.util.Scanner;
+
+public class Assignment13 {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int n = input.nextInt();
+        int a = 0;
+        int b = 1;
+        if (n == 1) {
+            System.out.println("0");
+        } else if (n == 2) {
+            System.out.println("1");
+        } else {
+            for (int i = 3; i <= n; i++) {
+                int fibo = a + b;
+                a = b;
+                b =fibo;
+
+            }
+            System.out.println(b);
+        }
+        input.close();
+    }
+}
